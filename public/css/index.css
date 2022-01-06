@@ -1,0 +1,188 @@
+@font-face {
+  font-family: bubble;
+  src: url(../font/No.98-ShangShouQuPaoShouXieTi-2.ttf);
+}
+body {
+  font-family: bubble;
+  position: relative;
+  background: url('../img/bg.jpg') repeat repeat;
+	background-size: contain;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-size: 6rem;
+}
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+}
+
+
+.content {
+  width: 174.5rem;
+  height: 74.0rem;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin: -33.0rem 0 0 -87.25rem;
+}
+.flipbook-container {
+  position: absolute;
+  width: 63.2rem;
+  height: 39.9rem;
+  left: 6.0rem;
+  top: 50%;
+  margin-top: -24.0rem;
+}
+.flipbook-container::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 70.4rem;
+  height: 40.8rem;
+  margin: -20.0rem 0 0 -35.2rem;
+  background: url(https://www.harrypottermagicawakened.com/pc/gw/20201020114844/img/book_bg_f04d142.png) no-repeat
+    center;
+  z-index: 1;
+  pointer-events: none;
+}
+.flipbook {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.flipbook .shadow {
+  display: none;
+}
+.flipbook .page {
+  position: relative;
+  width: 31.6rem;
+  height: 39.9rem;
+}
+.flipbook .page:hover {
+  cursor: pointer;
+}
+.flipbook .page.page-left {
+  background: url(https://www.harrypottermagicawakened.com/pc/gw/20201020114844/img/book_left_275cc0d.png) no-repeat;
+}
+.flipbook .page.page-right {
+  background: url(https://www.harrypottermagicawakened.com/pc/gw/20201020114844/img/book_right_bca3f38.png) no-repeat;
+}
+.flipbook .page.p2 {
+  overflow: visible;
+}
+.flipbook .page .page-num {
+  display: block;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0;
+  width: 100%;
+  color: #48413b;
+  font-size: 2.3rem;
+  line-height: 4.0rem;
+  text-align: center;
+}
+.flipbook .page .page-content {
+  position: relative;
+  padding: 1.5rem 4.0rem;
+  color: #221b15;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.flipbook .page .page-content p {
+  text-indent: .2em;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+.flipbook .page .page-content .page-img {
+  display: block;
+  width: 43.7rem;
+  height: 25.6rem;
+}
+.flipbook .page .page-content .item-icon {
+  width: 7.1rem;
+  height: 7.1rem;
+}
+.flipbook .page .page-content h4 {
+  color: #422b19;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+.flipbook .page .page-content h5 {
+  color: #85322a;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+}
+.flipbook .page .page-content .item-info {
+  color: #221b15;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.book_click {
+  width: 12.9rem;
+  height: 13.35rem;
+  background: url(https://www.harrypottermagicawakened.com/pc/gw/20201020114844/img/book_click_8dfe8c2.png) no-repeat
+    center;
+  background-size: 100% auto;
+  position: absolute;
+  left: 50%;
+  margin: 50.0rem 0 0 -20.0rem;
+  z-index: 2;
+}
+.book_click.ani {
+  -o-animation: tips 4s linear 1 forwards;
+  -webkit-animation: tips 4s linear 1 forwards;
+  -moz-animation: tips 4s linear 1 forwards;
+  -ms-animation: tips 4s linear 1 forwards;
+  animation: tips 4s linear 1 forwards;
+}
+
+.book_tips {
+  width: 26.8rem;
+  height: 1.8rem;
+  background: url(https://www.harrypottermagicawakened.com/pc/gw/20201020114844/img/book_tips_55e431f.png) no-repeat
+    center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 20.0rem 0 0 -84.0rem;
+  z-index: 2;
+}
+
+.book_pop {
+  position: absolute;
+  width: 31.3rem;
+  height: 16.6rem;
+  background: url(https://www.harrypottermagicawakened.com/pc/gw/20201020114844/img/pop_card_74e05de.png) no-repeat
+    center;
+  z-index: 5;
+  left: 0;
+  top: 50%;
+  left: 22.0rem;
+  margin-top: -10.8rem;
+  display: none;
+  z-index: 6 !important;
+}
+
+.lastpage {
+  position: absolute;
+  width: 35.0rem;
+  height: 39.9rem;
+  top: 50%;
+  left: 37.9rem;
+  margin-top: -23.8rem;
+  z-index: 5;
+  display: none;
+  cursor: auto;
+}
