@@ -1,11 +1,10 @@
 //屏幕适应
 (function (win, doc) {
   if (!win.addEventListener) return;
-  var html = document.documentElement;
   function setFont() {
     var html = document.documentElement;
     var k = 375;
-    html.style.fontSize = html.clientWidth / k + "px";
+    html.style.fontSize = (html.clientWidth / k) + "px";
   }
   setFont();
   setTimeout(function () {

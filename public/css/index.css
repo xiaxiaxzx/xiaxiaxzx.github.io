@@ -45,6 +45,12 @@ h1 {
 }
 
 .title {
-  padding: 30rem;
+  padding: 30rem 30rem 20rem;
 }
 
+.littleWidth {
+  padding: 0 120rem 0 0;
+}
+.content {
+  padding: 0 30rem;
+}
