@@ -16,7 +16,8 @@ ul,
 ol,
 li,
 p,
-a {
+a,
+img {
   margin: 0;
 	padding: 0;
 }
